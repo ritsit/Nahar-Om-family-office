@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Landing Page</title>
+</head>
+
+<body>
+  <div class="Navbar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Nahar OM Family Office</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <main>
+    <div id="home" class="heading-box">
+      <h3>User Data</h3>
+    </div>
+  
+    <div class="main-container">
+      <div class="container-1">
+        <form id="loginForm">
+          <!-- Email input -->
+          <div data-mdb-input-init class="content">
+            <h5>Username</h5>
+            <input type="username" id="form1Example1" class="form-control" placeholder="Enter Username" />
+            <!-- <label class="form-label" for="form1Example1"></label> -->
+          </div>
+
+          <!-- Password input -->
+          <div data-mdb-input-init class="content">
+            <h5>Password</h5>
+            <input type="password" id="form1Example2" class="form-control" placeholder="Enter Password" required />
+            <!-- <label class="form-label" for="form1Example2"></label> -->
+          </div>
+
+          <!-- gender input -->
+          <div data-mdb-input-init class="content">
+            <h5>Gender</h5>
+            <input type="radio" value="Female" name="class" class="radiobtn" /><span>Female</span>
+            <input type="radio" value="male" name="class" class="radiobtn" /><span>Male</span>
+            <input type="radio" value="others" name="class" class="radiobtn" /><span>Others</span>
+            <!-- <label class="form-label" for="form1Example2"></label> -->
+          </div>
+          <div data-mdb-input-init class="content">
+            <h5>Skills</h5>
+            <select>
+              <option value="JavaScript">JavaScript</option>
+              <option value="React">React</option>
+              <option value="Backend">Backend</option>
+              <option value="API">API</option>
+            </select>
+            <!-- <label class="form-label" for="form1Example2"></label> -->
+          </div>
+          <!-- 2 column grid layout for inline styling -->
+          <div class="row mb-4">
+            <div class="col d-flex justify-content-center">
+              <!-- Checkbox -->
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
+                <label class="form-check-label" for="form1Example3"> Remember me </label>
+              </div>
+            </div>
+
+            <div class="col">
+              <!-- Simple link -->
+              <a href="#!">Forgot password?</a>
+            </div>
+          </div>
+
+          <!-- Submit button -->
+          <button data-mdb-ripple-init type="submit" class="btn btn-primary btn-block">Sign in</button>
+        </form>
+        <div class="msg-container hide">
+          <p class="msg"><b>Your're logged in successfully !</b></p>
+        </div>
+      
+        <div class="background-container">
+        </div>
+      
+        <div class="content-container">
+        </div>
+
+      </div>
+
+      <!-- here is second container -->
+      <div id="about" class="container-2">
+          <div class="box-1">
+               <h3>
+                 About Us
+               </h3>
+          </div>
+          <div class="box2">
+              <div>
+                   <p class="about-data">
+                    We envision a future where every business transaction is a catalyst for positive change. At Nahar OM Family Co-op Office, we're not just another business entity. We're a testament to evolution and a commitment to a new era of conscious commerce. Hailing from an Oswal & Maheshwari lineage, Our journey commenced 45 years ago as a humble HVAC wholesale trading house, and today, it has matured into a beacon of change and innovation in the world of finance.
+                   </p>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+  </main>
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="company-name fas fa-gem me-3"></i>Nahar OM Family Office
+          </h6>
+          <p>
+            We envision a future where every business transaction is a catalyst for positive change.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Useful links
+          </h6>
+          <p>
+            <a href="#home" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="#about" class="text-reset">About Us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <h6 class="cont text-uppercase fw-bold mb-4">Contact</h6>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            308ritikayadav@gmail.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +91 6387656442</p>
+        </div>
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright: Reserved
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+  <!-- <div class="background-container">
+  </div>
+
+  <div class="content-container">
+  </div> -->
+  <script src="script.js"></script>
+</body>
+
+</html>

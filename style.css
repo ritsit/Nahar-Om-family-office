@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+    /* background-image: url('image.png');  */
+}
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure it's behind other content */
+    background-image: url('image.png');
+    background-size: cover;
+    filter: blur(5px) brightness(0.7); /* Adjust the blur and brightness values as needed */
+}
+
+.content-container {
+    position: relative; /* Ensure it's on top of the background */
+}
+
+
+.hide{
+display:none;
+}
+
+main{
+    color:white;
+    /* text-align: center; */
+}
+h3{
+    text-align: center;
+    color:white;
+    font-weight: 200;
+    font-family: Charis SIL;
+}
+
+.heading-box{
+    padding:1%;
+    margin-bottom: -1%;
+}
+
+.navbar{
+    height:50px;
+    background-color:rgb(101, 212, 212);
+    color:black;
+    padding-top:2px; 
+   text-decoration: none;
+}
+
+.navbar-nav{
+    margin-left: 83%;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Charis SIL;
+} 
+
+.navbar-brand{
+    margin-left: 1.5%;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: Charis SIL;
+}
+
+.Navbar ul{
+    float: right;
+text-decoration: none;
+}
+.Navbar li{
+    list-style: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(99, 172, 176); /* Text color on hover */
+}
+
+.main-container{
+    /* height:440px;
+    width:500px; */
+}
+.container-1{
+    height:360px;
+    width:500px;
+    font:12px;
+    color:#1a3d53;
+    background-color:  white;
+    border-width:2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 2%;
+    padding:10px; 
+    margin-left: 31%;
+}
+
+.container-2{
+   padding: 120px;
+}
+
+.about-data{
+    font-family: Charis SIL;    
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.onclick{
+    text-align: center;
+    
+}
+.content{
+    margin:10px;
+}
+.form-check,col{
+    display:inline-block;
+}
+.btn{
+height:40px;
+width:100px;
+margin-left: 180px;
+background-color: white;
+color:#1a3d53;
+border-radius: 1rem;
+border-color: white;
+}
+.logo{
+    display:inline;
+    font:25px;
+}
+footer{
+    background-color: rgb(101, 212, 212);
+}
+.radiobtn{
+    margin:10px;
+}
+
+.msg-container{
+    height:31px;
+    width:300px;
+    color:black;
+    background-color: white;
+    text-align: center;
+    padding: 2px;
+    margin-top: 3%;
+    margin-left: 15%;
+    border-radius: 2px;
+}
+
+.msg{
+   margin-top: 0%;
+}
+footer{
+    padding-top: 0.1%; 
+    font-family: Charis SIL;    
+    font-size: 20px;
+    font-weight: 200;
+}
+.cont{
+    margin-left:6%;
+}
+.company-name{
+    margin-left:-4%;
+}
+.bg-body-tertiary{
+    background-color: white;
+}
+
